@@ -4,8 +4,8 @@ import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/xadmin/',  // Cambiar aquí para apuntar a la subruta
-  plugins: [react()],
+  base: '/',
+  plugins: [react(),],
   define: { 'process.env': {}, },
   resolve: {
     alias: {
